@@ -66,17 +66,18 @@ p{
 	vertical-align: middle;
 }
 .menu{
-	list-style: none;
 	font-family: sans-serif;
-	position: absolute;
-	top: 10px;
-	right: 30px;
+	position: fixed;
+	background: white;
+	width: 100%;
+	top: 0px;
 	z-index: 10;
 	cursor: pointer;
+	margin-top: 0px;
 }
 .links{
 	float: left;
-	color: #FFF;
+	color: darkblue;
 	padding-top: 5px;
 	padding-left: 9px;
 	padding-right: 9px;
@@ -86,4 +87,7 @@ p{
 }
 .links:hover{
 	background-color:dodgerblue;
+}
+html{
+	scroll-behavior: smooth;
 }
